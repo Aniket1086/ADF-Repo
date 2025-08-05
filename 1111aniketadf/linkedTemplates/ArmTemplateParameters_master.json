@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "1111aniketadf"
+		},
+		"LS_BLOB_SRC_connectionString": {
+			"value": ""
+		},
+		"MyEventBasedTrig_properties_typeProperties_scope": {
+			"value": "/subscriptions/da1e8c0b-b440-4931-b12c-7c26373e718f/resourceGroups/aniketrg/providers/Microsoft.Storage/storageAccounts/aniketsc"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
