@@ -1,0 +1,17 @@
+{
+	"name": "MyEventBasedTrig",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/da1e8c0b-b440-4931-b12c-7c26373e718f/resourceGroups/aniketrg/providers/Microsoft.Storage/storageAccounts/aniketsc",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

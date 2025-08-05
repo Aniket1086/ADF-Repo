@@ -1,0 +1,9 @@
+{
+	"name": "1111aniketadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "92c0d02b-8c84-42a3-af9d-d6c575c354c0",
+		"tenantId": "1c10efa5-e2a3-4a19-87b3-3dea0ff419f6"
+	}
+}
